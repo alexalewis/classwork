@@ -1,5 +1,6 @@
+@import url(‘https://fonts.googleapis.com/css?family=Oswald:300|Roboto+Mono|Roboto:900&display=swap’);
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 'Roboto', sans-serif;
 }
 
 html {
@@ -9,4 +10,85 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f8e067;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: #47899a;
+  font-weight: 900;
+}
+
+.showcase {
+  background-image: url("./images/downtown.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #47899a;
+  background-image: linear-gradient(rgba(248, 224, 103, 0.8), rgba(237, 95, 92, 0.8));
+  width: 100%;
+  text-align: center;
+  padding: 2rem 3.5rem;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.plan {
+  color: #47899a;
+  background-color: rgba(237, 95, 92);
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.feature {
+  background-color: #9bc4cb;
+  color: #f8e067;
+  text-align: center;
+  padding: 2rem;
+  margin: 0;
+}
+
+.best {
+  margin-left: 1rem;
+  background-color: #e6e6e5;
+}
+
+.best h2 {
+  color: #47899a;
+  padding-left: 1rem;
+  margin-bottom: 0;
+}
+
+.best p {
+  font-weight: 600;
+  width: 90%;
+}
+
+.best hr {
+  width: 90%;
+  margin-left: 0;
 }
